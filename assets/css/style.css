@@ -1,52 +1,51 @@
-body{
-    background-color: rgb(20, 20, 20);
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    width: 80%;
+body {
+    background-color: #173441;
+    font-family: "Raleway", sans-serif;
+    color: #FDFEF7;
     margin: auto;
 }
 
-header{
-    text-align: center;
+header  {
+    background-color: #030607;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
-section{
+section {
     background-color: #333333;
     padding: 1.3rem;
     border-radius: 20px;
     margin: 20px;
 }
 
-footer{
+footer {
     text-align: center;
     margin-top: 10px;
     padding: 10px;
     background-color: #333333;
 
 }
-footer a{
+
+footer a {
     color: aliceblue;
     text-decoration: none;
 }
 
-footer img{
+footer img {
     width: 20px;
     height: 20px;
     border-radius: 40%;
     margin: 10px;
 }
 
-
-
-.titulo{
-    color: rgb(0, 215, 223);
-    text-align: center;
-    font-size: 2rem;
-}
-.foto{
+.foto {
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
-.border-box{
+
+.border-box {
     border: solid 1px white;
     padding: 20px;
     margin: 50px;
