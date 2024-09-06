@@ -20,6 +20,9 @@ section {
     scroll-margin-top: 60px;
 
 }
+section li{
+    margin-bottom: 1rem;
+}
 
 footer {
     text-align: center;
@@ -43,9 +46,11 @@ footer img {
 
 .foto {
     border-radius: 50%;
-    width: 150px;
+    width: 200px;
     height: 150px;
-    margin-right: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
 }
 
 .border-box {
