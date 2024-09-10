@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/imgs/icono.png">
-    <link rel="stulesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -43,66 +43,100 @@
         </nav>
     </header>
 
-<!-- Seccion Sobre Mi -->
+    <!-- Seccion Sobre Mi -->
     <section class="section_alt">
-        <div  class="row d-flex justify-content-between">
-                <img class="foto" src="./assets/imgs/foto.jpg" alt="Mi Foto">       
+        <div class="row d-flex justify-content-between">
+            <img class="foto" src="./assets/imgs/foto.jpg" alt="Mi Foto">
             <div class="col-12 col-lg-8">
                 <h3>Sobre Mí</h3>
                 <p class="text-justify">
                     Naci el 16 de Mayo de 1991, en la ciudad de Santiago de Chile.
                     Me desempeño como Administrador de Procesos dentro de Caja Los Andes,
-                    done mantengo una trayectoria profesional que comienza en el año 2009
+                    lugar done mantengo una trayectoria profesional que comienza en el año 2009
                     como Practicante del cargo Explotador de Sistemas.<br>
-                    Algunas de mis cualidades profesionales que destacaria son ser proactivo, 
-                    dinámico, responsable frente a trabajos bajo presión. Ademas de aprovechar 
-                    al máximo las herramientas y recursos tenga disponibles e incentivar el 
+                    Algunas de mis cualidades profesionales que destacaria son ser proactivo,
+                    dinámico, responsable frente a trabajos bajo presión. Ademas de aprovechar
+                    al máximo las herramientas y recursos tenga disponibles e incentivar el
                     trabajo en equipo y la buena relación entre colegas.
                 </p>
             </div>
-    </div>
+        </div>
     </section>
 
-   <!-- Seccion Formación -->
+    <!-- Seccion Formación -->
     <section id="seccion1">
         <h3>Formación</h3>
         <div class="border-box mt-4 mx-0 mb-0">
+            <h5>Educación</h5>
+            <hr>
             <ol type="I">
-                <h5>Educacion</h5><hr>
                 <li>1996 - 2004&emsp;&emsp;Enseñanza Básica, Liceo Profesora Aurelia Rojas Burgos.</li>
                 <li>2005 - 2008&emsp;&emsp;Enseñanza Media, Liceo Sergio Silva Bascuñán.
-                    <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Especialidad: Electrónica</li>
+                    <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Especialidad: Electrónica
+                </li>
                 <li>2019 – 2021&emsp;&emsp;Enseñanza superior, Instituto Profesional Los Leones.
-                    <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Carrera: Analista y Programador computacional.</li>
-                </ol>
+                    <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Carrera: Analista y Programador Computacional.
+                </li>
+            </ol>
+        </div>
+        <div class="border-box mt-4 mx-0 mb-0">
+            <h5>Habilidades Técnicas</h5>
+            <hr>
+            <ul>
+                <li>Inglés Técnico.</li>
+                <li>Control-M nivel Fundamentos y Administración.</li>
+                <li>Programación Postscript VIPP, Xerox.</li>
+                <li>Administración de respaldos, HP Data Protector.</li>
+                <li>Uso de Cannabis medicinal (Para Profesionales de la salud).</li>
+                <li>SO Linux, Unix HPUX, Windows.</li>
+                <li>Manejo de Lenguajes SQL/PLSQL, Scripting Batch/Shell, C#, PHP, Java, HTML+CSS.</li>
+                <li>Frameworks: Angular, Spring.</li>
+            </ul>
+            <div class="iconos">
+                <i class="fa-brands fa-redhat"></i>
+                <i class="fa-brands fa-windows"></i>
+                <i class="fa-solid fa-database"></i>
+                <i class="fa-brands fa-angular"></i>
+                <i class="fa-solid fa-cannabis"></i>
+                <i class="fa-brands fa-php"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+
             </div>
-            <div class="border-box mt-4 mx-0 mb-0">
-                <ul >
-                    <h5>Habilidades</h5><hr>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    </ol>
-                </div>
+        </div>
     </section>
 
+    <!-- Seccion Portafolio -->
     <section id="seccion2">
 
         <h3>Portafolio</h3>
-        
 
     </section>
 
+    <!-- Seccion Contacto -->
     <section id="seccion3">
+            <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+            <form>    
+                <div class="form-group mb-4">
+                    <label class="mb-2">Nombre</label>
+                    <input class="form-control" placeholder="Nombre">
+                </div>
+    
+                <div class="form-group mb-4">
+                    <label class="mb-2">Correo electrónico</label>
+                    <input class="form-control" placeholder="Correo electrónico" />
+                </div>
 
-        <h3>Contacto</h3>
-        <ol type="I">
-            <li>1996 - 2004&emsp;&emsp;Enseñanza Básica, Liceo Profesora Aurelia Rojas Burgos </li>
-            <li>2005 - 2008&emsp;&emsp;Enseñanza Media, Liceo Sergio Silva Bascuñán Especialidad: Electrónica.</li>
-            <li>2019 – 2021&emsp;&emsp;Enseñanza superior Analista y Programador computacional, Instituto Profesional
-                Los Leones.</li>
-        </ol>
-
+                <div class="form-group">
+                    <label class="mb-2">Mensaje</label>
+                    <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                </div>
+    
+                <div class="my-3 text-end">
+                    <button class="btn btn-info text-light">Enviar</button>
+                </div>
+            </form>
     </section>
 
     <footer>
@@ -111,9 +145,12 @@
         </ul>
     </footer>
 
+    <!-- Script's -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cc60a037d5.js" crossorigin="anonymous"></script>
+    <!-- /Script's -->
 </body>
 
 

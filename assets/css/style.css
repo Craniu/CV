@@ -46,8 +46,8 @@ footer img {
 
 .foto {
     border-radius: 50%;
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
@@ -62,4 +62,12 @@ footer img {
 
 .section_alt {
     background-color: #173441;
+}    
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
