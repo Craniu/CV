@@ -16,7 +16,7 @@
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Cristoffer Veneasdasdasdasga</title>
+    <title>Cristoffer Venega</title>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
                             <a class="nav-link active text-white" aria-current="page" href="#">Sobre Mi</a>
                             <a class="nav-link text-white" href="#seccion1">Formación</a>
                             <a class="nav-link text-white" href="#seccion2">Portafolio</a>
-                            <a class="nav-link text-white" href="#seccion3">Contacto</a>
+                            <a class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a>
                         </div>
                     </div>
                 </div>
@@ -112,8 +112,106 @@
 
         <h3>Portafolio</h3>
 
+        <div id="carouselExample" class="carousel">
+            <div class="carousel-inner d-flex justify-content-center">
+                <div class="carousel-item active">
+
+                    <div class="card" style="width: 18rem;">
+                        <a class="text-decoration-none" href="./Desafio 1/index.html" target="_blank">
+                            <img class="card-img-top" src="./assets/imgs/D1.png" alt="Desafio 1">
+                            <p class="fs-5 text-center mt-2 mb-1">Desafio 1</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card" style="width: 18rem;">
+                        <a class="text-decoration-none" href="./Desafio 2/index.html" target="_blank">
+                            <img class="card-img-top" src="./assets/imgs/D2.png" alt="Desafio 2">
+                            <p class="fs-5 text-center mt-2 mb-1">Desafio 2</p>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card" style="width: 18rem;">
+                        <a class="text-decoration-none" href="./Desafio 3/index.html" target="_blank">
+                            <img class="card-img-top" src="./assets/imgs/D3.png" alt="Desafio 3">
+                            <p class="fs-5 text-center mt-2 mb-1">Desafio 3</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card" style="width: 18rem;">
+                        <a class="text-decoration-none" href="./Desafio 4/index.html" target="_blank">
+                            <img class="card-img-top" src="./assets/imgs/D4.png" alt="Desafio 4">
+                            <p class="fs-5 text-center mt-2 mb-1">Desafio 4</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card" style="width: 18rem;">
+                        <a class="text-decoration-none" href="./Desafio 5/Desafio-5/index.html" target="_blank">
+                            <img class="card-img-top" src="./assets/imgs/D5.png" alt="Desafio 5">
+                            <p class="fs-5 text-center mt-2 mb-1">Desafio 5</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
     </section>
 
+    <!-- Seccion contacto -->
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="contactModalLabel">Formulario de Contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulario de Contacto -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Asunto del mensaje"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <p>©2024 Cristoffer Venega DLC - Todos los derechos reservados.</p>
